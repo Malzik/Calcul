@@ -8,12 +8,8 @@
     <packaging>war</packaging>
 
     <properties>
-        <source>11</source>
-        <target>11</target>
-        <testSource>11</testSource>
-        <testTarget>11</testTarget>
-        <maven.compiler.source>3.1</maven.compiler.source>
-        <maven.compiler.target>3.1</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -89,5 +85,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
